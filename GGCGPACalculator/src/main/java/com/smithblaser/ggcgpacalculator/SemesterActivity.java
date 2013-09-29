@@ -56,8 +56,6 @@ public class SemesterActivity extends Activity
         Intent receivedIntent = getIntent();
         gpa = receivedIntent.getFloatExtra("gpa", 0);
         hours = receivedIntent.getIntExtra("hours", 0);
-        //textviewUsername.setText(name);
-        //textviewUserAge.setText(Integer.toString(age));
     }
 
     private float calculateGPA()
